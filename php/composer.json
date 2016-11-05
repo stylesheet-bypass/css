@@ -1,0 +1,20 @@
+{
+    "name": "stylesheet/abpcss",
+    "description": "CSS bypass for Adblock",
+    "keywords": ["ads", "abp"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "akrabat/rka-ip-address-middleware": "^0.4.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+	"scripts": {
+        "start": "php -S 0.0.0.0:8080 index.php"
+	},
+    "autoload": {
+        "psr-4": {
+            "abpcss\\": "src/"
+        }
+    }
+}

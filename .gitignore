@@ -1,0 +1,10 @@
+docker/*.lua
+docker/*.conf
+docker/*.mp4
+docker/*.jpg
+docker/*.py
+docker/*.php
+docker/composer.json
+docker/resty/
+python/*.pyc
+php/vendor/
